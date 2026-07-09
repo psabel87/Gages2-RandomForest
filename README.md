@@ -7,11 +7,11 @@ The paired headwater-downstream sites used can be found in the csv hw_ds_connect
 
 Predictor variables include climate, land cover, storage/soils, topography, water use, and other.  Below is a list of the predictors used in each of the 6 categories.  Each predictor (except the signature metric) is included twice - once for the headwater catchment and once for the downstream catchment:
 - Climate - precip_annual, pet_annual, precip_jfm → precip in january, february, march, pet_jfm → pet in january, february, march, precip_amj → precip in april, may, june, pet_amj → pet in april, may, june, precip_jas → precip in july, august, september, pet_jas → pet in july, august, september, precip_ond → precip in october, november, december, pet_ond → pet in october, november, december, swe_annual, max_swe, zero_swe_day, swe_persistence, melt_duration
-- Land Cover - ag, developed, forest, grass
+- Land Cover - ag, developed, forest, grass, tile_pct
 - Storage/Soils - si, dist_index, dam_storage, soil_perm, soil_depth
-- Topography - elev, slope, twi
+- Topography - elev, slope, twi, age
 - Water Use - water_use_mean
-- Other - tile_pct, age, Corresponding downstream signature value
+- Other - Corresponding downstream signature value
 
 
 Additionally, the RF model is run using either drainage_ratio which is the drainage area ratio between the paired headwater-downstream catchments or ds_drainage_ratio which is the paired downstream drainage area.
