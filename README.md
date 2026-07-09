@@ -3,6 +3,8 @@ This code is for a Random Forest model that will predict 20 hydrologic signature
 
 To run the code, you need the csv file called rf_model_data.csv which contains all the data (sites, predictors, response variables) which is detailed below.
 
+The paired headwater-downstream sites used can be found in the csv hw_ds_connections_exp.csv.
+
 Predictor variables include climate, land cover, storage/soils, topography, water use, and other.  Below is a list of the predictors used in each of the 6 categories.  Each predictor (except the signature metric) is included twice - once for the headwater catchment and once for the downstream catchment:
 - Climate - precip_annual, pet_annual, precip_jfm → precip in january, february, march, pet_jfm → pet in january, february, march, precip_amj → precip in april, may, june, pet_amj → pet in april, may, june, precip_jas → precip in july, august, september, pet_jas → pet in july, august, september, precip_ond → precip in october, november, december, pet_ond → pet in october, november, december, swe_annual, max_swe, zero_swe_day, swe_persistence, melt_duration
 - Land Cover - ag, developed, forest, grass
